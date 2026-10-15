@@ -1,6 +1,6 @@
 # Registro de Testes Unitários
-Aluno: Alanis Venerruche de Carvalho
-Grupo: 2
+Aluno: Ana Júlia Menezes da Silva
+Grupo: 07
 Data: 24/09/2026
 ## Testes escritos
 | # | Arquivo | O que o teste verifica | Tipo |
