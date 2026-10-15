@@ -3,14 +3,14 @@ Aluno: Ana Júlia Menezes da Silva
 Grupo: 07
 Data: 24/09/2026
 ## Testes escritos
-| # | Arquivo | O que o teste verifica | Tipo |
-| --- | ------- | ---------------------- | ----------------------- |
-| 1 | `tests/unit/validators.test.js` | Aceita um e-mail válido | sucesso |
-| 2 | `tests/unit/validators.test.js` | Rejeita e-mail sem `@` | falha |
-| 3 | `tests/unit/validators.test.js` | Aceita nome com exatamente o tamanho mínimo | borda |
-| 4 | `tests/unit/parseId.test.js` | Rejeita ID não numérico (`abc`) | falha |
-| 5 | `tests/unit/parseId.test.js` | Rejeita ID parcialmente numérico (`12abc`) | falha |
-| 6 | `tests/unit/ambiente.test.js` | Confirma a configuração básica do ambiente de testes | sucesso |
+| # | Arquivo                         | O que o teste verifica                               | Tipo                    |
+| - | ------------------------------- | ---------------------------------------------------- | ----------------------- |
+| 1 | `tests/unit/validators.test.js` | Aceita um e-mail válido                              | sucesso                 |
+| 2 | `tests/unit/validators.test.js` | Rejeita e-mail sem `@`                               | falha                   |
+| 3 | `tests/unit/validators.test.js` | Aceita nome com exatamente o tamanho mínimo          | borda                   |
+| 4 | `tests/unit/parseId.test.js`    | Rejeita ID não numérico (`abc`)                      | falha                   |
+| 5 | `tests/unit/parseId.test.js`    | Rejeita ID parcialmente numérico (`12abc`)           | falha                   |
+| 6 | `tests/unit/ambiente.test.js`   | Confirma a configuração básica do ambiente de testes | sucesso                 |
 ## Resultado
 Passaram: 5 testes
 Falharam: 1 teste
